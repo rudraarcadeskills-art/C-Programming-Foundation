@@ -5,9 +5,13 @@
 
 int main()
 {
-    int i = 72;
-    int* j = &i; // j is a pointer pointing to i ( j is an integer pointer)
-    int k = 58;
+    char i = 'A';
+
+    
+    char* j = &i; // j is a pointer pointing to i ( j is an character pointer)
+
+    float k = 56.3;
+    float* k1 = &k; // k is a pointer pointing to k ( k is an float pointer)
     printf("the address of i is %p\n", &i);
     printf("the address of i is %p\n", j);
     printf("the address of k is %p\n", &k);
